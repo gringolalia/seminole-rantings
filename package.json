@@ -1,0 +1,38 @@
+{
+    "name": "semantic-ui-webpack-boilerplate",
+    "version": "2.0.0",
+    "description": "A boilerplate for semantic-ui and webpack",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/atomicpages/semantic-ui-webpack2-boilerplate.git"
+    },
+    "private": true,
+    "author": "Dennis Thompson",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack --mode=production",
+        "start": "webpack serve --hot"
+    },
+    "peerDependencies": {
+        "jquery": "^3.0.0"
+    },
+    "devDependencies": {
+        "@djthoms/prettier-config": "^2.0.0",
+        "css-loader": "^5.0.0",
+        "del": "^6.0.0",
+        "file-loader": "^6.1.1",
+        "gulp": "^3.0.0",
+        "gulp-chug": "^0.5.1",
+        "html-webpack-plugin": "^4.5.0",
+        "less-loader": "^7.0.2",
+        "prettier": "^2.1.2",
+        "semantic-ui": "^2.4.2",
+        "style-loader": "^2.0.0",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.0.0",
+        "webpack-cli": "^4.0.0",
+        "webpack-dev-server": "^3.0.0"
+    },
+    "prettier": "@djthoms/prettier-config"
+}
